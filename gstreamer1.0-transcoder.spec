@@ -19,7 +19,7 @@ BuildRequires:  meson
 BuildRequires:  python
 BuildRequires:  gobject-introspection-devel
 BuildRequires:  gstreamer1.0-devel
-BuildRequires:  gstreamer1.0-plugins-base-devel
+BuildRequires:  pkgconfig(gstreamer-plugins-base-1.0)
 Provides:	%{oname} = %{version}-%{release}
 Conflicts:	%{_lib}gsttranscoder1.0_0 < 1.12.1
 
