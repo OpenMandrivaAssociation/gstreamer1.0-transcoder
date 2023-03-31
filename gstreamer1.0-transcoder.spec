@@ -8,7 +8,7 @@
 
 Name:           gstreamer%{api}-transcoder
 Version:        1.16.0
-Release:        2
+Release:        3
 Summary:        GStreamer Transcoding API
 Group:          Video/Utilities
 License:        LGPLv2+
